@@ -20,6 +20,7 @@
 
 /* BODY */
 body {
+  -webkit-user-select:none;user-select:none; /* 防複製 */
   font-family: 'Noto Sans TC', sans-serif;
   background: linear-gradient(160deg, #FEFBD0 0%, #E8F8D0 50%, #D4F0E8 100%);
   min-height: 100vh;
